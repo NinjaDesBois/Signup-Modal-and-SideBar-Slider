@@ -1,0 +1,146 @@
+header {
+    text-align: center;
+    height: 300px;
+    background-color: rgb(48, 51, 107);
+    color: white;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    transition: transform 1.2s;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: xxx-large;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 900;
+}
+
+.para {
+    font-weight: 500;
+}
+
+img {
+    border-radius: 50%;
+}
+
+#Sidebar {
+    width: 200px;
+    height: 110vh;
+    background-color: rgb(48, 51, 107);
+    position: fixed;
+    border-right: 2px solid rgb(63, 66, 116);
+    transform: translateX(-100%);
+    border-bottom-right-radius: 10%;
+}
+
+#Sidebar ul li {
+    line-height: 76px;
+    border-bottom: 2px solid rgb(63, 66, 116);
+    ;
+    list-style: none;
+}
+
+#Sidebar ul {
+    padding: 0;
+}
+
+#Sidebar>ul>li>a {
+    color: white;
+    padding-left: 5%;
+}
+
+.ferme {
+    display: none;
+}
+
+#toggle {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    border-radius: 10%;
+    border: none;
+    background-color: rgb(190, 46, 221);
+    color: white;
+}
+
+#signup {
+    background-color: rgb(190, 46, 221);
+    padding: 1.5vh 3vh;
+    border-radius: 5%;
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: large;
+}
+
+.corps {
+    transform: translateX(200px);
+}
+
+.bullet {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 120vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Modalit {
+    position: relative;
+    height: 520px;
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    animation: appear 0.5s ease-in;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: translateY(-70px);
+    }
+}
+
+#signup1 {
+    background-color: rgb(190, 46, 221);
+    padding: 1.5vh 3vh;
+    border-radius: 5%;
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: large;
+}
+
+.signuptitre {
+    background-color: rgb(48, 51, 107);
+    color: white;
+}
+
+#close {
+    background-color: rgb(190, 46, 221);
+    border-radius: 20%;
+}
+
+.submit {
+    background-color: rgb(190, 46, 221);
+    border-radius: 8%;
+    border: none;
+    color: white;
+}
